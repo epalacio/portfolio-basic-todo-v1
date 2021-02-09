@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-basic-todo",
+  "version": "1.0.0",
+  "description": "basic todo list - MERN",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epalacio/portfolio-basic-todo.git"
+  },
+  "author": "Esteban Palacio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epalacio/portfolio-basic-todo/issues"
+  },
+  "homepage": "https://github.com/epalacio/portfolio-basic-todo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "react-router": "^5.2.0"
+  }
+}
